@@ -1,5 +1,5 @@
 services:
   - type: web
-    name: Basket-Service-Helper
+    name: Solar
     env: docker
     plan: free
