@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/DarkTurnsElor/Interstellar.git
+RUN git clone https://github.com/DarkTurnsElor/Solar-Service.git
 
-WORKDIR /Interstellar
+WORKDIR /Solar-Service
 
 RUN npm install
 
